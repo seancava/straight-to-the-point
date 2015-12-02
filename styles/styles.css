@@ -1,0 +1,12 @@
+h1 {
+  font-size:3rem;
+}
+p {
+  color:#333333;
+}
+.featuredButton {
+  font-weight:bold;
+  padding:1rem 2rem;
+  background:#000000;
+  color:#ffffff;
+}
