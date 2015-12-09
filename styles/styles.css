@@ -1,18 +1,19 @@
 
 header{
-	margin: 0;
+	margin: 1em 1em 0 2em;
 	padding: 0;
 }
 header p{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1em;
+	font-size: .8em;
 	margin:0;
-	padding: 3em 0 0 0;
+	padding: 4em 0 0 0;
+	color: #660;
 }
 header img{
 	width: 4em;
 	height: 4em;
-	float:left;
+	float: left;
 	margin: 0 1em 1em 0;
 	border: none;
 }
@@ -28,7 +29,7 @@ ul{
 ul li{
 	display:inline;
 	list-style:none;
-	padding: 0 5% 0 5%;
+	padding: 0 5% 0 0;
 }
 footer{
 	background-color:#E3DBC8;
@@ -42,19 +43,35 @@ footer li img{
 	width: 3em;
 	height: 3em;
 }
-a:link{
+nav a:link{
 	color:#9C0;
 	text-decoration:none;
 }	
-a:active{
+nav a:active{
 	color:#9FC;
 	text-decoration:none;
 }
-a:visited{
+nav a:visited{
 	color:#9C0;
 	text-decoration:none;
 }
-a:hover{
+footer a:hover{
+	color:#660;
+	text-decoration:none;
+}
+footer a:link{
+	color:#9C0;
+	text-decoration:none;
+}	
+footer a:active{
+	color:#9FC;
+	text-decoration:none;
+}
+footer a:visited{
+	color:#9C0;
+	text-decoration:none;
+}
+footer a:hover{
 	color:#660;
 	text-decoration:none;
 }
