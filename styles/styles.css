@@ -94,3 +94,80 @@ aside {
 footer {
   clear:both;
 }
+/***** adding Sean's styles *****/
+header{
+	margin: 1em 1em 0 2em;
+	padding: 0;
+}
+header p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	margin:0;
+	padding: 4em 0 0 0;
+	color: #660;
+}
+header img{
+	width: 4em;
+	height: 4em;
+	float: left;
+	margin: 0 1em 1em 0;
+	border: none;
+}
+nav{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+ul{
+	clear: both;
+	margin:0;
+}
+ul li{
+	display:inline;
+	list-style:none;
+	padding: 0 5% 0 0;
+}
+footer{
+	background-color:#E3DBC8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding: 2em 1em 2em 1em;
+	text-align:right;
+}
+footer li img{
+	width: 3em;
+	height: 3em;
+}
+nav a:link{
+	color:#9C0;
+	text-decoration:none;
+}	
+nav a:active{
+	color:#9FC;
+	text-decoration:none;
+}
+nav a:visited{
+	color:#9C0;
+	text-decoration:none;
+}
+footer a:hover{
+	color:#660;
+	text-decoration:none;
+}
+footer a:link{
+	color:#9C0;
+	text-decoration:none;
+}	
+footer a:active{
+	color:#9FC;
+	text-decoration:none;
+}
+footer a:visited{
+	color:#9C0;
+	text-decoration:none;
+}
+footer a:hover{
+	color:#660;
+	text-decoration:none;
+}
