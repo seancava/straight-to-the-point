@@ -54,8 +54,16 @@ main img {
 #home main {
   padding:0 1rem .5rem;
 }
-#home main img, #home main video {
+#home main .image {
+  float:left;
+  width:45%;
+}
+#home main .text {
+  float:right;
   width:50%;
+}
+#home main img, #home main video {
+  width:100%;
 }
 aside {
   width:25%;
